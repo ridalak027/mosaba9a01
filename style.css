@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     height: 2500px;
+}
+
+ /* beging of nav */
+
+nav {
+  background-color: rgb(229, 244, 251);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav .right {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+nav .right a {
+    font-size: 19px;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+nav .right .home {
+    border-bottom: 2px solid purple;
+} 
+
+nav .right img{
+    width: 120px;
+    height: 80px;
+}
+
+nav .left {
+    margin-top: 60px;
+    margin-right: 70px;
+    position: relative;
+    display: flex;
+}
+
+nav .left img{
+    width: 120px;
+    height: 30px;
+}
+
+
+nav .left a{
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+   /* end of nav  */
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 700px;
+}
+
+.first .imgbottom img{
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    z-index: 5;
+}
+
+
+.first .imgtotal{
+    width: 100%;
+   height: 600px; 
+}
+
+.first .imgtotal img{
+    width: 100%;
+    height: 100%;
+}
+
+.first .text{
+   position: absolute;
+   top: 200px;
+   left: 30px;
+   padding: 50px;
+   margin-right: 10px;
+}
+
+.first .text h1{
+    font-size: 40px;
+}
+
+.first .text pre{
+    font-size: 20px;
+}
+
+.first .imgleft {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
+.first .imgleft .j{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 80px;
+    right: 250px;
+    z-index: 2;
+}
+
+.first .imgleft .jj{  
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 700px;
+    height: 700px;
+}
+
+.first .imgleft .jjj{
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    z-index: 1;
+   width: 300px;
+    height: 150;
+    z-index: 3;
+}
+
+.first .imgleft .jjjj{
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    z-index: 1;
+    width: 300px;
+    height: 150;
+    z-index: 3;
+}
+color{
+    color: purple;
+}
+
+/* end class first  */
+
+.secand {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url(image/second_section_.png);
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.secand .right {
+  margin-top: 0px;
+  z-index: 2;
+  background-color: white;
+  border-top-right-radius: 150px;
+}
+
+.secand .midel{
+    position: relative;
+    top: 230px;
+    right: 20px;
+}
+
+.secand .left{
+    position: relative;
+    top: 500px;
+    right: 30px;
+}
+
+.secand .right div h3 {
+    text-align: center;
+    margin-left: 90px;
+}
+
+.secand .midel h3 {
+    text-align: center;
+    margin-left: 95px;
+}
+
+.secand .left h3 {
+    text-align: center;
+    margin-left: 75px;
+}
+
+.secand .right div .hh{
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 85px;
+    font-size: 30px;
+}
+
+.secand .right div .h{
+    color: white;
+    position: absolute;
+    top: 580px;
+    left: 180px;
+    font-size: 15px;
+}
+
+.secand .right div .img1{
+    margin-left: 170px;
+    width: 180px;
+    height: 150px;
+}
+
+.secand .midel .img1{
+    margin-left: 170px;
+    width: 180px;
+    height: 150px;
+}
+
+.secand .left .img1{
+    margin-left: 150px;
+    width: 180px;
+    height: 150px;
+}
+
+.secand .right div .img2{
+    margin-top: 270px;
+    margin-left: 100px;
+    width: 300px;
+    height: 250px;
+}
+
+/* end class secand */
+
+
+.therd {
+    display: flex;
+    justify-content: space-around;
+   margin-top: 300px;
+}
+
+.therd .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0px;
+    position: relative;
+}
+
+.therd .right .imgh1{
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.therd .midel{
+    margin: 0px;
+}
+
+.therd .midel .imgh2{
+    margin-left: 0px;
+    width: 400px;
+    height: 350px;
+}
+
+.therd .left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.therd .left .imgh3{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.therd h4{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.therd p{
+    font-size: 30px;
+    color: rgb(172, 168, 166);
+}
+
+.p1{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.p2{
+    position: absolute;
+    top: 250px;
+    right: 350px;
+}
+
+/* end class therd */
+
+.footer {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 510px;
+   width: 100%;
+   overflow: hidden;
+   background-image: url(image/Group\ 11300.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.footer .footerr{
+    margin-top: 340px;
+}
+
+.footer .footerr .g{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer .footerr .g .r{
+    display: flex;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: white;
+    padding: 12px  12px  12px  20px;
+    border-radius: 10px;
+}
+
+.footer .footerr .g .r p{
+    align-items: center;
+    margin-top: 5px;
+}
+
+.footer .footerr .g .r img{
+    margin-right: 8px;
+    width: 25px;
+   height: 25px;
+}
+
+.footer .footerr .gg{
+    display: flex;
+}
+
+.footer .footerr .gg i{
+    color: white;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 27px;
+}
+
+.footer .footerr .ggg{
+    display: flex;
+    margin: 30px 30px 0px 0px;
+}
+
+.footer .footerr .ggg .rr{
+    margin-right: 55px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footerl{
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.footer .footerl img{
+   width: 510px;
+   height: 430px;
+}
